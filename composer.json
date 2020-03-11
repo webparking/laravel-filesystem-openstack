@@ -1,0 +1,25 @@
+{
+  "name": "webparking/laravel-filesystem-openstack",
+  "description": "Laravel filesystem wrapper for openstack swift v2 / v3.",
+  "license": "MIT",
+  "require": {
+    "laravel/framework": "5.5.*",
+    "nimbusoft/flysystem-openstack-swift": "^0.3.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Webparking\\FilesystemOpenstack\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webparking\\FilesystemOpenstack\\Providers\\FilesystemOpenstackServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
