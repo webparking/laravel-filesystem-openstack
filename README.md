@@ -1,5 +1,5 @@
 # Laravel filesystem wrapper for Openstack swift
-This package replaced the not actively maintained https://github.com/neoxia/laravel-openstack and is a wrapper for https://github.com/chrisnharvey/flysystem-openstack-swift. Main motivation was the need to use it in a Laravel 7 project and the switch from a deeper dependency on `guzzle/guzzle` to `guzzlehttp/guzzle`.
+This package replaced the not actively maintained https://github.com/neoxia/laravel-openstack and is a wrapper for https://github.com/chrisnharvey/flysystem-openstack-swift. Main motivation was the need to use it in a Laravel 7 & 8 projects and the switch from a deeper dependency on `guzzle/guzzle` to `guzzlehttp/guzzle`.
 
 ## Installation
 ```
